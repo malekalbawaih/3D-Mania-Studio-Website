@@ -1,0 +1,664 @@
+/* This Project designed and developed by Malek Albawaih
+This demo website represent Malek skills in Figma, HTML and CSS
+for more please visit my website malekalbawaih.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    background-color: #EA7600;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 852px;
+}
+
+/* ------------ Navbar ------------ */
+.navbar{
+    display: flex;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.navbar a{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.navbar-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-icons img{
+    width: 50px;
+    height: 50px;
+}
+
+/* ------------ Hero ------------ */
+.hero{
+    flex: 1;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+
+.hero-img{
+    background: url("./img/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    width: 302px;
+    height: 548px;
+}
+
+.hero-part img{
+    display: none;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.hero-text h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.hero-text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+/* ------------ About ------------ */
+.about{
+    min-height: 100vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-shrink: 0;
+    background-color: #fff;
+}
+
+.about img{
+    width: 200px;
+    height: 192.857px;
+    flex-shrink: 0;
+    border-radius: 200px;
+    border: 10px solid #fff;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    background-color: #fff;
+    max-width: 523px;
+}
+
+.about-text h3{
+    color: #EA7600;
+    background-color: #fff;
+    align-self: stretch;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.about-text p{
+    align-self: stretch;
+    text-align: center;
+    color: #EA7600;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ------------ Services ------------ */
+.services{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.services h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.services-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.services-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.services-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 46px;
+}
+
+.services-card p{
+    height: 41px;
+    align-self: stretch;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ------------ Softwares ------------ */
+.softwares{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.softwares h3{
+    background-color: #fff;
+    color: #EA7600;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.softwares-logos{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.softwares-logos img{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: -10px;
+    border: 10px solid #EA7600;
+    border-radius: 100px;
+}
+
+/* ------------ Contact ------------ */
+.contact{
+    min-height: 100vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+}
+
+.contact-h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    
+}
+
+.contact-cards{
+    width: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+}
+
+.contact-card{
+    display: flex;
+    padding: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 10px solid #FFF;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+}
+
+.contact-card h4,p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ------------ Rights ------------ */
+.rights{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+
+.rights img{
+    background-color: #FFF;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.rights p{
+    background-color: #FFF;
+    color: #EA7600;
+    display: flex;
+    width: 263px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+
+/* ------------ Tablet ------------ */
+@media(min-width: 744px){
+
+    /* ------------ Navbar ------------ */
+    .navbar{
+        padding: 30px 20px 0px 20px;
+        height: 100px;
+    }
+
+    .navbar a{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .navbar-icons img{
+        width: 75px;
+        height: 75px;
+    }
+
+    /* ------------ Hero ------------ */
+    .hero{
+        padding-top: 0px;
+        flex-direction: row-reverse;
+        gap: 0px;
+    }
+
+
+    .hero-img{
+        flex-shrink: 0;
+        width: 318px;
+        height: 578px;
+    }
+
+    .hero-part{
+        display: flex;
+        height: 578px;
+        padding: 0px 50px 150px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 50px;
+        flex: 1 0 0;
+    }
+
+    .hero-part img{
+        display: initial;
+        width: 100px;
+        height: 127.811px;
+        flex-shrink: 0;
+    }
+
+    .hero-text{
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .hero-text h1{
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    .hero-text p{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    /* ------------ About ------------ */
+    .about{
+        padding: 40px 20px;
+        gap: 80px;
+    }
+
+    .about img{
+        width: 400px;
+        height: 385.714px;
+    }
+
+    .about-text h3{
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .about-text p{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    /* ------------ Services ------------ */
+    .services{
+        gap: 80px;
+    }
+
+    .services h3{
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .services-cards{
+        width: 744px;
+        flex-direction: initial;
+        align-content: center;
+        align-self: center;
+        flex-wrap: wrap;
+        gap: 40px 0px;
+    }
+
+    .services-card{
+        width: 250px;
+        gap: 20px;
+    }
+
+    .services-card img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .services-card p{
+        height: 77px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    /* ------------ Softwares ------------ */
+    .softwares{
+        gap: 80px;
+    }
+
+    .softwares h3{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .softwares-logos{
+        flex-direction: initial;
+        padding: 0px 20px;
+        align-content: center;
+        gap: 37px;
+        flex-wrap: wrap;
+        width: 744px;
+    }
+
+    .softwares-logos img{
+        width: 150px;
+        height: 150px;
+        margin-top: 0px;
+        border-radius: 100px;
+    }
+
+    /* ------------ Contact ------------ */
+    .contact{
+        justify-content: center;
+    }
+
+    .contact-h3{
+        font-size: 48px;
+        line-height: 48px;
+        
+    }
+
+    .contact-card{
+        gap: 35px;
+    }
+
+    .contact-card h4,p{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    /* ------------ Rights ------------ */
+    .rights{
+        height: 80px;
+    }
+
+    .rights img{
+        background-color: #FFF;
+        width: 30px;
+        height: 30px;
+    }
+
+    .rights p{
+        width: 393px;
+        font-size: 36px;
+        line-height: 36px;
+    } 
+}
+
+/* ------------ Desktop ------------ */
+@media(min-width: 1024px){
+
+    /* ------------ Navbar ------------ */
+    .navbar{
+        padding: 40px 20px 0px 20px;
+        height: 125px;
+    }
+
+    .navbar a{
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    /* ------------ Hero ------------ */
+    .hero{
+        padding: 0px 85px;
+        flex-direction: row-reverse;
+        gap: 0px;
+    }
+
+
+    .hero-img{
+        width: 326px;
+        height: 720px;
+    }
+
+    .hero-part{
+        padding: 0px 50px 200px 0px;
+        gap: 50px;
+        flex: 1 0 0;
+    }
+
+    .hero-part img{
+        width: 125px;
+        height: 159.763px;
+    }
+
+    .hero-text h1{
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    .hero-text p{
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    /* ------------ About ------------ */
+    .about{
+        padding: 40px 135px;
+        gap: 100px;
+    }
+
+    /* ------------ Softwares ------------ */
+    .softwares{
+        gap: 80px;
+        padding: 20px 70px;
+    }
+
+    .softwares-logos{
+        flex-direction: initial;
+        padding: 0px 20px;
+        align-content: center;
+        gap: 66px;
+        flex-wrap: wrap;
+        width: 100vw;
+        max-width: 1135px;
+    }
+
+    .softwares-logos img{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ------------ Rights ------------ */
+    .rights{
+        height: 100px;
+    }
+}
+
+@media(min-width: 1135px){
+    .hero-text h1{
+        font-size: 96px;
+        line-height: 96px;
+    }
+
+    .hero-text p{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    /* ------------ Services ------------ */
+    .services{
+        gap: 128px;
+    }
+
+    .services-cards{
+        width: auto;
+        flex-direction: row;
+        align-self: center;
+        gap: 20px;
+    }
+
+    .services-card{
+        width: 250px;
+        gap: 20px;
+    }
+
+    .services-card img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .services-card p{
+        height: 77px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    /* ------------ Contact ------------ */
+    .contact{
+        justify-content: center;
+    }
+
+    .contact-h3{
+        font-size: 48px;
+        line-height: 48px;
+        
+    }
+
+    .contact-cards{
+        width: 1300px;
+        gap: 80px;
+        flex-direction: row;
+    }
+
+    .contact-card{
+        gap: 35px;
+        height: 400px;
+        width: 300px;
+    }
+
+    .contact-card h4,p{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    
+
+}
