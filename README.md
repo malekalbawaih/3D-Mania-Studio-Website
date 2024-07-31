@@ -1,10 +1,10 @@
 # 3D-Mania-Studio-Website
-
+<img src="https://github.com/malekalbawaih/3D-Mania-Studio-Website/blob/main/thumbnails/3D%20Mania%20Studio%20thumbnail.png" alt="thumbnail" width="500px" />
 
 
 ## This demo website represent my skills in: `Figma` / `HTML` / `CSS`
 
-<img src="https://github.com/malekalbawaih/3D-Mania-Studio-Website/blob/main/thumbnails/3D%20Mania%20Studio%20thumbnail.png" alt="thumbnail" width="500px" />
+<img src="https://github.com/malekalbawaih/3D-Mania-Studio-Website/blob/main/thumbnails/3D%20Mania%20Studio%20Main%20Page.png" alt="thumbnail" width="500px" />
 
 
 
